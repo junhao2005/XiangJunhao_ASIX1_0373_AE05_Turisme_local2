@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+
+header, footer{
+    width: 100%;
+    background-color: #f8e764;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+
+section {
+    flex: 1;
+    margin: 18px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+
+.blog-img{
+    display: flex;
+    flex-direction: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.item-1 {
+    width: 32%;
+   
+}
+
+.item-2 {
+    width: 32%;
+    
+}
+
+.item-3 {
+    width: 32%;
+   
+}
+
+img{
+    width: 250px;
+}
+
+.img-noti{
+    width: 200px;
+}
+
+
+h2, h3{
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+
+ 
+
+
