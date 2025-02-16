@@ -4,7 +4,7 @@ body{
 
 header, footer{
     width: 100%;
-    background-color: #f8e764;
+    background-color: #f89a64;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ section {
     flex: 1;
     margin: 18px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #3bfd0b;
     border-radius: 10px;
 
 }
@@ -77,6 +77,107 @@ iframe {
     text-align: justify;
 }
 
- 
+body {
+    margin: 0;
+}
+
+header, footer {
+    width: 100%;
+    background-color: #f8e764;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+
+section {
+    flex: 1;
+    margin: 18px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.blog-img {
+    display: flex;
+    justify-content: center; /* Centra las imágenes */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.item-1, .item-2, .item-3 {
+    width: 32%;
+}
+
+img {
+    width: 250px;
+    height: 190px;
+}
+
+.img-noti {
+    width: 200px;
+    height: 150px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
 
 
+
+/* 🔹 Media Query para pantallas de 700px o menos */
+@media (max-width: 700px) {
+
+    header, footer{
+        background-color: #bb2d5c;
+    }
+    
+
+    main {
+        flex-direction: column; /* Cambia a diseño en columna */
+        align-items: center;
+        background-color: rgb(220, 120, 230);
+    }
+
+    section {
+        background-color: rgb(159, 236, 211);
+    }
+
+    .blog-img {
+        flex-direction: column; /* Apila las imágenes en vez de alinearlas en fila */
+        align-items: center;
+    }
+
+    .item-1, .item-2, .item-3 {
+        width: 100%; /* Hace que las imágenes ocupen todo el ancho */
+    }
+
+    img {
+        width: 100%; /* Ajusta las imágenes al ancho del contenedor */
+        height: auto; /* Mantiene la proporción */
+    }
+
+    .img-noti{
+        width: 100%;
+        height: auto;
+    }
+
+}
