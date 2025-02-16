@@ -2,25 +2,25 @@ body{
     margin: 0;
 }
 
-header, footer{
+
+header, footer {
     width: 100%;
-    background-color: #f89a64;
+    background-color: #3640c9;
     text-align: center;
 }
 
-main{
+main {
     display: flex;
     flex-direction: row;
-    background-color: aquamarine;
+    background-color: rgb(23, 151, 123);
 }
 
 section {
     flex: 1;
     margin: 18px;
     padding: 20px;
-    background-color: #3bfd0b;
+    background-color: #e6bf6c;
     border-radius: 10px;
-
 }
 
 
@@ -63,7 +63,7 @@ h2, h3{
 
 p{
     text-align: justify;
-    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 iframe {
@@ -77,29 +77,6 @@ iframe {
     text-align: justify;
 }
 
-body {
-    margin: 0;
-}
-
-header, footer {
-    width: 100%;
-    background-color: #f8e764;
-    text-align: center;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    background-color: aquamarine;
-}
-
-section {
-    flex: 1;
-    margin: 18px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-}
 
 .blog-img {
     display: flex;
