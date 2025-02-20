@@ -56,6 +56,12 @@ img{
     height: 150px;
 }
 
+.img {
+    width: 35vh;
+    height: auto;
+    transition: transform 0.3s;
+}
+
 
 h2, h3{
     text-align: center;
@@ -118,6 +124,15 @@ iframe {
     text-align: justify;
 }
 
+.imgmov {
+    width: 35vh;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.imgmov:hover{
+    transform: scale(1.1);
+}
 
 
 /* 🔹 Media Query para pantallas de 700px o menos */
