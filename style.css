@@ -129,8 +129,6 @@ iframe {
 }
 
 .imgmov {
-    width: 35vh;
-    height: auto;
     transition: transform 0.3s;
 }
 
@@ -191,5 +189,6 @@ iframe {
         width: 100%;
         height: auto;
     }
-
+    
+    
 }
